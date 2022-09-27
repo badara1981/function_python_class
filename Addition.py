@@ -16,3 +16,11 @@ def add_num(num1, num2):
     return num1+num2
 result = add_num(10, 20)
 print(result)
+
+#
+def print_result(a,b):
+    print(a+b)
+#
+def return_result(a, b):
+    return a+b
+result = print_result(10, 20)
